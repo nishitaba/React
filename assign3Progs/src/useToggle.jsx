@@ -1,0 +1,10 @@
+import {useState} from 'react'
+export default function useToggle()
+{
+    const [isOn,setIsOn] = useState(false)
+    const toggle=()=>
+    {
+        setIsOn(!isOn);
+    }
+    return{isOn,toggle};
+}
