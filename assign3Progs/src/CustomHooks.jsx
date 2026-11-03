@@ -6,7 +6,7 @@ export default function CustomHooks()
         <>
             <h1>Custom Hooks</h1>
             <h2>Status: {isOn?"ON":"OFF"}</h2>
-            <button onClick={toggle}>{isOn?"Turn Off":"Turn on"}</button>
+            <button  onClick={toggle}>{isOn?"Turn Off":"Turn on"}</button>
         </>
     );
 }
